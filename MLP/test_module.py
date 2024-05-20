@@ -1,8 +1,8 @@
 # test_module.py
 
 import unittest
-from RPS_game import play, quincy, abbey, kris, mrugesh
-from RPS import player
+from MLP.RPS_game import play, quincy, abbey, kris, mrugesh
+from MLP.RPS import player
 
 class TestRPSPlayer(unittest.TestCase):
     def test_against_quincy(self):

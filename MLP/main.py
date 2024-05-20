@@ -1,7 +1,7 @@
 # main.py
 
-from RPS_game import play, quincy, abbey, kris, mrugesh
-from RPS import player
+from MLP.RPS_game import play, quincy, abbey, kris, mrugesh
+from MLP.RPS import player
 
 if __name__ == "__main__":
     bots = [quincy, abbey, kris, mrugesh]
@@ -11,3 +11,4 @@ if __name__ == "__main__":
         print(f"Testing against {name}")
         result = play(player, bot, 1000)
         print(f"Win rate against {name}: {result['player'] / 1000:.2%}")
+    
